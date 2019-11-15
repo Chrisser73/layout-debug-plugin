@@ -1,9 +1,19 @@
 {
   "name": "layout-debug-plugin",
   "version": "0.0.1",
-  "main": "main.js",
+  "main": "src/js/main.js",
   "repository": "https://github.com/Chrisser73/layout-debug-plugin",
   "author": "Christopher Matthes",
   "license": "MIT",
-  "private": null
+  "private": null,
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "scss-compile": "^0.1.7",
+    "node-sass": "^4.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass —-watch scss -o css",
+    "start": "http-server ."
+  }
 }

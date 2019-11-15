@@ -1,0 +1,258 @@
+/* CONTAINER */
+/* ROW / GRID */
+/* ALL COLs / CELLs */
+/* Foundation CELL */
+/* Bootstrap Col inner */
+body *:after, body *:before, body *::placeholder, body *::selection, body *::backdrop {
+  box-shadow: 0px 0px 0px 1px rgba(255, 0, 0, 0.6); }
+
+body::-webkit-scrollbar {
+  box-shadow: 0px 0px 0px 1px rgba(255, 0, 0, 0.6); }
+
+.rs-hide body * {
+  box-shadow: none; }
+  .rs-hide body *:before {
+    box-shadow: none; }
+  .rs-hide body *::placeholder {
+    box-shadow: none; }
+  .rs-hide body *::selection {
+    box-shadow: none; }
+  .rs-hide body *::backdrop {
+    box-shadow: none; }
+
+.rs-hide::-webkit-scrollbar {
+  box-shadow: none; }
+
+.rs-hide * {
+  box-shadow: none; }
+  .rs-hide *:after {
+    box-shadow: none; }
+  .rs-hide *:before {
+    box-shadow: none; }
+  .rs-hide *::placeholder {
+    box-shadow: none; }
+  .rs-hide *::selection {
+    box-shadow: none; }
+  .rs-hide *::backdrop {
+    box-shadow: none; }
+
+.rs-hide #overlay-container {
+  display: none; }
+
+.rs-hide #overlay-container-toggle:after {
+  content: "Debug Layout off";
+  color: #6d0b0b;
+  background: #ecc9c9; }
+
+*::selection {
+  background: rgba(0, 0, 255, 0.3); }
+
+.rs-layout-deep div[class*="d-"]:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep footer:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep video:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep audio:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep nav:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep picture:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep head:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep title:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep base:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep section:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep aside:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep article:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep address:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep figure:after {
+  content: " ";
+  background: rgba(255, 43, 255, 0.05);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  left: 0; }
+
+.rs-layout-deep #layout-deep-toggle:after {
+  color: #0b566d;
+  background: #c9dfec;
+  content: "Debug Depth on"; }
+
+#overlay-container {
+  position: absolute;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 9999999; }
+  #overlay-container .grid-container {
+    height: 100%; }
+  #overlay-container .container {
+    height: 100%; }
+  #overlay-container .grid-x {
+    height: 100%; }
+  #overlay-container .grid-margin-x {
+    height: 100%; }
+  #overlay-container .row {
+    height: 100%; }
+  #overlay-container .cell {
+    height: 100%;
+    box-shadow: none;
+    background: rgba(255, 0, 0, 0.1); }
+  #overlay-container .col-1 {
+    height: 100%; }
+    #overlay-container .col-1 span {
+      background: rgba(145, 0, 255, 0.07);
+      overflow: hidden;
+      display: block;
+      height: 100%;
+      box-shadow: none; }
+
+#overlay-container-toggle {
+  position: fixed;
+  width: 140px;
+  height: 35px;
+  border-radius: 50px;
+  text-align: center;
+  right: 10px;
+  top: 10px;
+  box-shadow: 0px 0px 4px #b9b9b9;
+  border: 1px solid black;
+  font-weight: bold;
+  z-index: 999999999;
+  overflow: hidden; }
+  #overlay-container-toggle:hover {
+    cursor: pointer; }
+  #overlay-container-toggle:after {
+    content: "Debug Layout on";
+    display: grid;
+    color: #0b6d0b;
+    background: #cfecc9;
+    height: fit-content;
+    width: 100%;
+    line-height: 36px; }
+
+#layout-deep-toggle {
+  position: fixed;
+  width: 140px;
+  height: 35px;
+  border-radius: 50px;
+  text-align: center;
+  right: 10px;
+  top: 10px;
+  box-shadow: 0px 0px 4px #b9b9b9;
+  border: 1px solid black;
+  font-weight: bold;
+  z-index: 999999999;
+  overflow: hidden;
+  top: 50px; }
+  #layout-deep-toggle:after {
+    content: "Debug Depth off";
+    display: grid;
+    color: #0b6d0b;
+    background: #cfecc9;
+    height: fit-content;
+    width: 100%;
+    line-height: 36px;
+    color: #6d0b0b;
+    background: #ecc9c9; }
