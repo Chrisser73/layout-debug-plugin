@@ -1,8 +1,3 @@
-/* CONTAINER */
-/* ROW / GRID */
-/* ALL COLs / CELLs */
-/* Foundation CELL */
-/* Bootstrap Col inner */
 body *:after, body *:before, body *::placeholder, body *::selection, body *::backdrop {
   box-shadow: 0px 0px 0px 1px rgba(255, 0, 0, 0.6); }
 
