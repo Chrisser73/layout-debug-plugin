@@ -1,0 +1,9 @@
+{
+  "name": "layout-debug-plugin",
+  "version": "0.0.1",
+  "main": "main.js",
+  "repository": "https://github.com/Chrisser73/layout-debug-plugin",
+  "author": "Christopher Matthes",
+  "license": "MIT",
+  "private": null
+}
