@@ -1,0 +1,20 @@
+# System Files
+*/.DS_Store
+.DS_Store
+Thumbs.db
+/.idea/
+/.yarn/
+yarn-error.log
+
+# Dependencies
+node
+/node_modules/
+
+# Compiled output
+excluded
+/dist/
+/.dist/
+/.tmp
+/.tmp-*
+/.build
+/.build-*
