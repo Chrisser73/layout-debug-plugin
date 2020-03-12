@@ -3,12 +3,13 @@
 .DS_Store
 Thumbs.db
 /.idea/
-/.yarn/
+/layout-debug-plugin/.yarn/
 yarn-error.log
 
 # Dependencies
-node
+/layout-debug-plugin/node
 /node_modules/
+*/node_modules/
 
 # Compiled output
 excluded
