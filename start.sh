@@ -4,6 +4,6 @@
 
 nvm use
 yarn
-yarn scss-compile
+yarn scss
 yarn start
-node-sass -o dist/css src/scss/main.scss -w
+#node-sass -o dist/css src/scss/main.scss -w
