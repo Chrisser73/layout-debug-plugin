@@ -9,7 +9,7 @@
   "dependencies": {
     "http-server": "^0.11.1",
     "scss-compile": "^0.1.7",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
